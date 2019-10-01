@@ -1,5 +1,4 @@
-var whatTimeIsIt = function(angle) {
-  console.log(angle);
+let whatTimeIsIt = function(angle) {
     mins = angle*2;
     h = Math.floor(mins / 60);
     m = Math.floor(mins % 60);
@@ -8,3 +7,5 @@ var whatTimeIsIt = function(angle) {
     if (m<10) {m = "0"+m}
     return h + ":" + m;
   }
+
+  angle=45
